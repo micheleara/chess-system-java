@@ -9,12 +9,14 @@ import chess.ChessException;
 import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.ChessPosition;
+import org.jcp.xml.dsig.internal.SignerOutputStream;
 
 
 public class Program {
 
 	public static void main(String[] args) {
 
+		System.out.println("testes");
 		Scanner sc = new Scanner(System.in);
 		ChessMatch chessMatch = new ChessMatch();
 		List<ChessPiece> captured =  new ArrayList<>();
